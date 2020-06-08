@@ -1,0 +1,1 @@
+az deployment group create --name "<name>" --resource-group "<rg name>" --template-file VnetTemplate.json --parameters VnetTemplate.parameters.json
