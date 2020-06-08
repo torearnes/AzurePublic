@@ -1,0 +1,1 @@
+az deployment create --name "rg1" --location "West Europe" --template-file ResourceGroupTemplate.json --parameters ResourceGroupTemplate.parameters.json
