@@ -1,0 +1,1 @@
+az deployment group create --name "<name>" --resource-group "<ResourceGroup>" --template-file SubnetTemplate.json --parameters SubnetTemplate.parameters.json
