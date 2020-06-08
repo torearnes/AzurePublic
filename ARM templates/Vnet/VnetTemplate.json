@@ -9,7 +9,7 @@
             "type": "string"
         },
         "VnetAddressPrefixes": {
-            "type": "string"
+            "type": "array"
         }
     },
     "functions": [],

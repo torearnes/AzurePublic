@@ -9,7 +9,7 @@
             "value": "West Europe" 
         },
         "VnetAddressPrefixes": {
-            "value": "10.1.0.0/16" 
+            "value": ["10.1.0.0/16"]
         }
     }
 }
