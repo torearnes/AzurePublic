@@ -1,0 +1,1 @@
+az deployment group create --name "<name>" --resource-group "<ResourceGroupName>" --template-file VMTemplate.json --parameters VMTemplate.parameters.json
