@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "GEN-UNIQUE"
+        },
+        "adminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "dnsLabelPrefix": {
+            "value": "GEN-UNIQUE"
+        },
+        "windowsOSVersion": {
+            "value": "2016-Datacenter"
+        },
+        "vmSize": {
+            "value": "Basic_A0"
+        },
+        "location": {
+            "value": ""
+        }
+    }
+}
