@@ -1,0 +1,11 @@
+az login
+CD C:\Users\TorEirikArnes\Documents\GitHubClone\AzureARM\AzureStuff\ARM templates\ResourceGroups
+az deployment create --name "rg1" --location "West Europe" --template-file ResourceGroupTemplate.json --parameters ResourceGroupTemplate.parameters.json
+CD C:\Users\TorEirikArnes\Documents\GitHubClone\AzureARM\AzureStuff\ARM templates\StorageAccount
+az deployment group create --name "<name>" --resource-group "<ResourceGroupName>" --template-file StorageAccountTemplate.json --parameters StorageAccountTemplate.parameters.json
+CD C:\Users\TorEirikArnes\Documents\GitHubClone\AzureARM\AzureStuff\ARM templates\Vnet
+az deployment group create --name "<name>" --resource-group "<rg name>" --template-file VnetTemplate.json --parameters VnetTemplate.parameters.json
+CD C:\Users\TorEirikArnes\Documents\GitHubClone\AzureARM\AzureStuff\ARM templates\Subnet
+az deployment group create --name "<name>" --resource-group "<ResourceGroup>" --template-file SubnetTemplate.json --parameters SubnetTemplate.parameters.json
+CD C:\Users\TorEirikArnes\Documents\GitHubClone\AzureARM\AzureStuff\ARM templates\VM
+az deployment group create --name "<name>" --resource-group "<ResourceGroupName>" --template-file VMTemplate.json --parameters VMTemplate.parameters.json
