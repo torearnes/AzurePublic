@@ -2,23 +2,41 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "location": {
+            "value": "West Europe"
+        },
+        "networkInterfaceName": {
+            "value": "TestVM1-Nic"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/126773df-dc2b-4864-8a5a-88740aef1c4e/resourceGroups/ResourceGroup1/providers/Microsoft.Network/virtualNetworks/Vnet1"
+        },
+        "virtualMachineName": {
+            "value": "TestVM1"
+        },
+        "virtualMachineRG": {
+            "value": "ResourceGroup1"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
         "adminUsername": {
-            "value": "GEN-UNIQUE"
+            "value": "bachmann"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "42QuadHopper"
         },
-        "dnsLabelPrefix": {
-            "value": "GEN-UNIQUE"
+        "diagnosticsStorageAccountName": {
+            "value": "ditmi7qyirbyysawinvm"
         },
-        "windowsOSVersion": {
-            "value": "2016-Datacenter"
-        },
-        "vmSize": {
-            "value": "Basic_A0"
-        },
-        "location": {
-            "value": ""
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/126773df-dc2b-4864-8a5a-88740aef1c4e/resourceGroups/ResourceGroup1/providers/Microsoft.Storage/storageAccounts/ditmi7qyirbyysawinvm"
         }
     }
 }
